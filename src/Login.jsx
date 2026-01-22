@@ -10,8 +10,8 @@ const Login = ({ onLogin }) => {
     e.preventDefault();
 
     // Hardcoded credentials (change these to your desired values)
-    const validUsername = 'admin';
-    const validPassword = 'gtm2026';
+    const validUsername = 'karthik';
+    const validPassword = 'G2MF0rtify2026';
 
     if (username === validUsername && password === validPassword) {
       onLogin();
