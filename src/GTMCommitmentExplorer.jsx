@@ -1,5 +1,33 @@
 import React, { useState } from 'react';
-import { ArrowRight, TrendingUp, PoundSterling, Clock, Users, Target, CheckCircle2, Building2, Handshake, Store, Cloud, Network, AlertCircle, AlertTriangle, ChevronDown, ChevronUp, DollarSign, Award, LogOut } from 'lucide-react';
+import { ArrowRight, TrendingUp, PoundSterling, Clock, Users, Target, CheckCircle2, Building2, Handshake, Store, Cloud, Network, AlertCircle, AlertTriangle, ChevronDown, ChevronUp, DollarSign, Award, LogOut, ExternalLink } from 'lucide-react';
+
+// Citation component for linking to source documents
+const Citation = ({ source, section }) => {
+  const baseUrl = import.meta.env.BASE_URL || '/';
+  const sourceMap = {
+    'appendix1': { file: 'appendix1-pricingDeeperDive.md', name: 'Pricing Strategy' },
+    'appendix2': { file: 'appendix2-gtm.md', name: 'GTM Framework' },
+    'appendix3': { file: 'appendix3-customerTargets.md', name: 'Customer Intelligence' }
+  };
+
+  const sourceInfo = sourceMap[source];
+  if (!sourceInfo) return null;
+
+  const url = `${baseUrl}${sourceInfo.file}`;
+  const title = section ? `${sourceInfo.name}: ${section}` : sourceInfo.name;
+
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-0.5 ml-1 text-blue-600 hover:text-blue-800 transition-colors"
+      title={title}
+    >
+      <ExternalLink className="w-3 h-3" />
+    </a>
+  );
+};
 
 const GTMCommitmentExplorer = ({ onLogout }) => {
   const [activeView, setActiveView] = useState('channels');
@@ -468,9 +496,9 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
       rationale: {
         why: 'Foundation-building strategy for Months 1-24. Maintain revenue predictability essential for Series A/B fundraising while collecting performance baseline data across 5-8 reference customers.',
         evidence: [
-          '78% of SaaS companies that successfully implemented outcome pricing had 5+ years market presence (Getmonetizely, 2025)',
-          'Value-based pricing provides 70-80% of outcome-based benefits with only 20-30% of implementation complexity',
-          'VC markets assign higher valuation multiples to predictable recurring revenue models'
+          { text: '78% of SaaS companies that successfully implemented outcome pricing had 5+ years market presence', source: 'appendix1', section: 'Implementation Challenges' },
+          { text: 'Value-based pricing provides 70-80% of outcome-based benefits with only 20-30% of implementation complexity', source: 'appendix1', section: 'Pricing Models' },
+          { text: 'VC markets assign higher valuation multiples to predictable recurring revenue models', source: 'appendix1', section: 'Strategic Implications' }
         ],
         keyActions: [
           'Systematically document false positive rates, investigation hours, and cost metrics',
@@ -503,10 +531,10 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
       rationale: {
         why: 'Transition strategy after establishing 15-25 customer deployments and Series B funding. Balances outcome-based benefits against revenue predictability needs. Demonstrates vendor confidence while managing downside risk.',
         evidence: [
-          'Gartner forecasts 40% of enterprise SaaS will include outcome-based elements by 2026',
-          'Deloitte found hybrid models adopted at 2.5x rate of pure outcome models',
-          'ServiceNow outcome-based contracts renewed at 94% vs 82% for traditional subscriptions',
-          'McKinsey: 20-30% improvements in retention with performance-based pricing'
+          { text: 'Gartner forecasts 40% of enterprise SaaS will include outcome-based elements by 2026', source: 'appendix1', section: 'Market Context and Industry Trends' },
+          { text: 'Deloitte found hybrid models adopted at 2.5x rate of pure outcome models', source: 'appendix1', section: 'Market Context and Industry Trends' },
+          { text: 'ServiceNow outcome-based contracts renewed at 94% vs 82% for traditional subscriptions', source: 'appendix1', section: 'Proven Performance Benefits' },
+          { text: 'McKinsey: 20-30% improvements in retention with performance-based pricing', source: 'appendix1', section: 'Proven Performance Benefits' }
         ],
         keyActions: [
           'Establish 30-day pre-implementation baseline measurement using agreed methodology',
@@ -548,10 +576,10 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
       rationale: {
         why: 'Advanced partnership model for mature product with 50-80 customer deployments. Creates long-term alignment where vendor benefits directly from ongoing customer value. Uncapped upside enables enterprise-scale revenue from largest customers.',
         evidence: [
-          'For institutions processing 100K alerts annually, 70% FP reduction yields £1.6M-£3.75M annual savings',
-          'Financial institutions implementing advanced AML systems achieve up to 60% compliance cost reductions (Tookitaki)',
-          'UK FCA adopted "outcomes-based mindset" since April 2023, creating favorable environment',
-          'Wipro: gain-sharing requires "trusted partnering arrangement" - not suitable for early relationships'
+          { text: 'For institutions processing 100K alerts annually, 70% FP reduction yields £1.6M-£3.75M annual savings', source: 'appendix1', section: 'ROI Quantification' },
+          { text: 'Financial institutions implementing advanced AML systems achieve up to 60% compliance cost reductions', source: 'appendix1', section: 'Regulatory Technology Context' },
+          { text: 'UK FCA adopted "outcomes-based mindset" since April 2023, creating favorable environment', source: 'appendix1', section: 'Regulatory Alignment' },
+          { text: 'Wipro: gain-sharing requires "trusted partnering arrangement" - not suitable for early relationships', source: 'appendix1', section: 'Implementation Challenges' }
         ],
         keyActions: [
           'Third-party audit firm validation of baseline and ongoing costs (mandatory)',
@@ -592,10 +620,10 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
       rationale: {
         why: 'Aggressive market differentiation for mature product with proven track record. Signals extreme vendor confidence while creating asymmetric risk that deters competition. Most appropriate when performance consistency across environments is well-understood.',
         evidence: [
-          'Zendesk outcome-based pricing contributed to 31% improvement in customer retention',
-          'AI-powered AML solutions consistently achieve 60-85% false positive reductions (Flagright, DataRobot)',
-          'Documented case studies: Danske Bank 60% reduction, HSBC "thousands of analyst hours per month" savings',
-          'UK FCA outcomes-focused regulation creates favorable environment for performance commitments'
+          { text: 'Zendesk outcome-based pricing contributed to 31% improvement in customer retention', source: 'appendix1', section: 'Proven Performance Benefits' },
+          { text: 'AI-powered AML solutions consistently achieve 60-85% false positive reductions', source: 'appendix1', section: 'Measurable Outcomes in AML' },
+          { text: 'Documented case studies: Danske Bank 60% reduction, HSBC "thousands of analyst hours per month" savings', source: 'appendix1', section: 'ROI Quantification' },
+          { text: 'UK FCA outcomes-focused regulation creates favorable environment for performance commitments', source: 'appendix1', section: 'Regulatory Alignment' }
         ],
         keyActions: [
           'Comprehensive product maturity required - minimum 50+ successful deployments',
@@ -1135,6 +1163,11 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
             </div>
           </div>
 
+          <div className="mb-4 text-xs text-gray-500 flex items-center gap-1">
+            <span>Metrics source:</span>
+            <Citation source="appendix2" section="Channel Analysis" />
+          </div>
+
           {/* Channel Strategy Rationale */}
           {channel.rationale && (
             <div className="mb-6 bg-green-50 rounded-md border-l-4 border-green-600 overflow-hidden">
@@ -1217,7 +1250,7 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
                       setSelectedStage(idx);
                       setShowStageRationale(false);
                     }}
-                    className={`w-16 h-16 rounded-full ${channel.color} text-white font-bold text-lg shadow-sm hover:opacity-90 transition-colors mb-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 ${
+                    className={`relative z-20 w-16 h-16 rounded-full ${channel.color} text-white font-bold text-lg shadow-sm hover:opacity-90 transition-colors mb-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 ${
                       selectedStage === idx ? 'ring-2 ring-offset-2 ring-blue-500' : ''
                     }`}
                   >
@@ -1230,7 +1263,7 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
                     <div className="text-xs text-gray-600">{s.duration}</div>
                   </div>
                   {idx < channel.stages.length - 1 && (
-                    <ArrowRight className="w-5 h-5 text-gray-400 absolute" style={{ left: `${((idx + 0.5) / channel.stages.length) * 100}%`, top: '28px' }} />
+                    <ArrowRight className="w-5 h-5 text-gray-400 absolute pointer-events-none" style={{ left: `${((idx + 0.5) / channel.stages.length) * 100}%`, top: '28px', zIndex: 1 }} />
                   )}
                 </div>
               ))}
@@ -1341,7 +1374,10 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
                 <div className="space-y-4">
                   <div>
                     <div className="text-sm text-gray-600 mb-1">Target Conversion</div>
-                    <div className="text-2xl font-bold text-blue-700">{stage.conversion}</div>
+                    <div className="text-2xl font-bold text-blue-700 flex items-center gap-1">
+                      {stage.conversion}
+                      <Citation source="appendix2" section="Progressive Commitment Framework" />
+                    </div>
                   </div>
                   <div>
                     <div className="text-sm text-gray-600 mb-1">Key Metric</div>
@@ -1412,6 +1448,10 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
                   })}
                 </tbody>
               </table>
+            </div>
+            <div className="mt-3 text-xs text-gray-500 flex items-center gap-1">
+              <span>Source: Progressive Commitment Framework Research</span>
+              <Citation source="appendix2" section="Go-to-Market Channels" />
             </div>
           </div>
         )}
@@ -1519,12 +1559,21 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
                             <div className="mt-4">
                               <h5 className="font-semibold text-gray-900 text-sm mb-2">Research-Backed Evidence:</h5>
                               <ul className="space-y-2">
-                                {pricingModels[selectedPricingModel].rationale.evidence.map((item, idx) => (
-                                  <li key={idx} className="flex items-start gap-2">
-                                    <div className="w-1 h-1 rounded-full bg-blue-500 mt-2 flex-shrink-0" />
-                                    <span className="text-xs text-gray-700 leading-relaxed">{item}</span>
-                                  </li>
-                                ))}
+                                {pricingModels[selectedPricingModel].rationale.evidence.map((item, idx) => {
+                                  const isObject = typeof item === 'object';
+                                  const text = isObject ? item.text : item;
+                                  return (
+                                    <li key={idx} className="flex items-start gap-2">
+                                      <div className="w-1 h-1 rounded-full bg-blue-500 mt-2 flex-shrink-0" />
+                                      <span className="text-xs text-gray-700 leading-relaxed">
+                                        {text}
+                                        {isObject && item.source && (
+                                          <Citation source={item.source} section={item.section} />
+                                        )}
+                                      </span>
+                                    </li>
+                                  );
+                                })}
                               </ul>
                             </div>
                           )}
@@ -1598,7 +1647,10 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
                     </ul>
                     {pricingModels[selectedPricingModel].tiers && (
                       <>
-                        <h5 className="font-semibold text-gray-900 mb-2 text-sm">Tier Breakdown</h5>
+                        <h5 className="font-semibold text-gray-900 mb-2 text-sm flex items-center gap-1">
+                          Tier Breakdown
+                          <Citation source="appendix1" section="Tiered Pricing Structure" />
+                        </h5>
                         <div className="space-y-2">
                           {pricingModels[selectedPricingModel].tiers.map((tier, idx) => (
                             <div key={idx} className="bg-white rounded-md px-3 py-2 border border-gray-200">
@@ -1708,6 +1760,11 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
                   {targetCustomers.filter(c => c.regulatoryCatalyst.urgency === 'URGENT').length}
                 </div>
               </div>
+            </div>
+
+            <div className="mb-4 text-xs text-gray-500 flex items-center gap-1">
+              <span>Customer intelligence source:</span>
+              <Citation source="appendix3" section="Target Customer Intelligence" />
             </div>
 
             {/* Sort Controls */}
