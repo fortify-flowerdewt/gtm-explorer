@@ -693,7 +693,13 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
           'Virgin Money integration creates parallel consolidation catalyst',
           'Building society governance model aligns with transparency/traceability value prop',
           '£105M+ compliance spend demonstrates budget availability and urgency'
-        ]
+        ],
+      sources: [
+        { title: "BREAKING: FCA fines Nationwide GBP 44m - AML Intelligence", url: "https://www.amlintelligence.com/2025/12/breaking-fca-fines-nationwide-44m-for-inadequate-financial-crime-controls/" },
+        { title: "Final Notice 2025: Nationwide Building Society - FCA", url: "https://www.fca.org.uk/publication/final-notices/nationwide-building-society-2025.pdf" },
+        { title: "Nationwide Building Society Software Purchases - Apps Run The World", url: "https://www.appsruntheworld.com/customers-database/customers/view/nationwide-building-society-united-kingdom" },
+        { title: "Nationwide Building Society Fortifies Business Continuity - Riskonnect", url: "https://riskonnect.com/business-continuity-resilience/nationwide-building-society-business-continuity-operational-resilience/" }
+      ]
       }
     },
     {
@@ -742,7 +748,12 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
           'Vendor consolidation is mandate (not discretionary evaluation)',
           'Integration complexity favors modern platform over legacy systems',
           'Combined scale ($117B) justifies enterprise pricing and white-glove service'
-        ]
+        ],
+      sources: [
+        { title: "Columbus-based Synovus completes USD 8.6B merger with Pinnacle - WTVM", url: "https://www.wtvm.com/2026/01/02/columbus-based-synovus-completes-86b-merger-with-pinnacle/" },
+        { title: "Synovus Financial Revenue and Assets - MacroTrends", url: "https://www.macrotrends.net/stocks/charts/SNV/synovus-financial/revenue" },
+        { title: "Gloria C. Banks Profile - Synovus", url: "https://www.synovus.com/about-us/our-leadership/gloria-banks" }
+      ]
       }
     },
     {
@@ -776,6 +787,11 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
       keyRisks: [
         'May already have vendor selection process underway',
         'Budget constraints if infrastructure investments exceed projections'
+      ],
+      sources: [
+        { title: "Felicia Wiggin Profile - The Org", url: "https://theorg.com/org/websterbank/org-chart/felicia-wiggin" },
+        { title: "Webster eyes USD 100B threshold, invests in hiring and tech - Banking Dive", url: "https://www.bankingdive.com/news/webster-bank-100b-threshold-hiring-tech-cybersecurity-nafde/742553/" },
+        { title: "Webster Reports Second Quarter 2025 EPS - Investor Relations", url: "https://investors.websterbank.com/News--Events/news-releases/news-details/2025/Webster-Reports-Second-Quarter-2025-EPS-of-1-52/default.aspx" }
       ]
     },
     {
@@ -809,6 +825,11 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
         'NICE Actimize incumbency advantage (switching costs)',
         'Bank may have already renewed contract',
         'Risk-averse culture may favor incumbent'
+      ],
+      sources: [
+        { title: "Hancock Whitney Bank Software Purchases - Apps Run The World", url: "https://www.appsruntheworld.com/customers-database/customers/view/hancock-whitney-bank-united-states" },
+        { title: "Contact Michael Otero - ZoomInfo", url: "https://www.zoominfo.com/p/Michael-Otero/1513768277" },
+        { title: "Compliance Jobs Report: Jan. 31 - Radical Compliance", url: "https://www.radicalcompliance.com/2025/01/31/compliance-jobs-report-jan-31-2/" }
       ]
     },
     {
@@ -843,6 +864,11 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
         'May have recently implemented new vendor',
         'Multi-year contracts may be in place from 2022-2023 decisions',
         'Transformation initiatives consuming budget/attention'
+      ],
+      sources: [
+        { title: "Texas Capital Bank Appoints Vivek Misra as Chief Compliance Officer", url: "https://texascapitalbank.com/who-we-are/newsroom/news/2022/08/11/texas-capital-bank-appoints-vivek-misra-serve-chief-compliance-officer" },
+        { title: "Texas Capital Bancshares Total Assets - MacroTrends", url: "https://www.macrotrends.net/stocks/charts/TCBI/texas-capital-bancshares/total-assets" },
+        { title: "Head of Financial Crimes Compliance & BSA Officer Job - GoInhouse", url: "https://www.goinhouse.com/jobs/428987473-head-of-financial-crimes-compliance-bsa-officer-at-texas-capital-bank" }
       ]
     },
     {
@@ -876,6 +902,11 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
         'Top performance may create complacency',
         'CRO may have completed vendor review in Year 1',
         'Strong financials may enable internal build'
+      ],
+      sources: [
+        { title: "Officers & Directors - East West Bank", url: "https://investor.eastwestbank.com/corporate-information/officers-directors/default.aspx" },
+        { title: "Anti-Money Laundering Policies and Forms - East West Bank", url: "https://www.eastwestbank.com/en/privacy-and-security/anti-money-laundering" },
+        { title: "East West Bancorp Reports Record Net Income - Business Wire", url: "https://www.businesswire.com/news/home/20250123735270/en/East-West-Bancorp-Reports-Record-Net-Income-for-Full-Year-2024-of-$1.2-Billion-and-Diluted-Earnings-Per-Share-of-$8.33-Increases-Dividend-and-Repurchase-Authorization" }
       ]
     },
     {
@@ -910,6 +941,11 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
         'No known regulatory catalyst or vendor dissatisfaction',
         'May be satisfied with current vendor',
         'Conservative culture may favor incumbents'
+      ],
+      sources: [
+        { title: "BOK Financial Taps New Chief Risk Officer - American Banker", url: "https://www.americanbanker.com/news/bok-financial-taps-new-chief-risk-officer" },
+        { title: "Environmental, Social, and Governance - BOK Financial", url: "https://www.bokfinancial.com/about-us/esg/governance-board-oversight" },
+        { title: "Contact Rebecca Parrish - ZoomInfo", url: "https://www.zoominfo.com/p/Rebecca-Parrish/-1548429987" }
       ]
     },
     {
@@ -942,6 +978,10 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
         'May default to Jack Henry Compliance Suite',
         'Compliance spend constrained by community bank economics',
         'Acquisition integration may delay technology decisions'
+      ],
+      sources: [
+        { title: "Prosperity Bancshares Reports Third Quarter 2025 Earnings - PR Newswire", url: "https://www.prnewswire.com/news-releases/prosperity-bancshares-inc-reports-third-quarter-2025-earnings-302597644.html" },
+        { title: "Prosperity Bancshares and American Bank Holding Corporation Announce Merger - PR Newswire", url: "https://www.prnewswire.com/news-releases/prosperity-bancshares-inc-and-american-bank-holding-corporation-in-corpus-christi-texas-announce-merger-302508465.html" }
       ]
     },
     {
@@ -976,6 +1016,10 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
         'Likely has established vendor relationships',
         'No visible catalyst for vendor change',
         'May prefer platform supporting internal capability'
+      ],
+      sources: [
+        { title: "Cullen/Frost Bankers 10-K - Board Cybersecurity", url: "https://www.board-cybersecurity.com/annual-reports/tracker/20250206-cullenfrost-bankers-inc-cybersecurity-10k/" },
+        { title: "Form 10-K Cullen/Frost Bankers PDF", url: "https://s27.q4cdn.com/398861320/files/doc_financials/2024/q4/694c1387-e1bf-4ffe-977c-5b033ac7d641.pdf" }
       ]
     },
     {
@@ -1006,6 +1050,436 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
         'No known dissatisfaction with current vendor',
         'Compliance leadership not accessible via public channels',
         'May require significant prospecting effort'
+      ],
+      sources: [
+        { title: "UMB Financial Beats Q3 Sales Expectations - FinancialContent", url: "https://markets.financialcontent.com/stocks/article/stockstory-2025-10-28-umb-financial-nasdaqumbf-beats-q3-sales-expectations" }
+      ]
+    },
+    {
+      id: 'metro-bank-uk',
+      name: 'Metro Bank UK',
+      country: 'UK',
+      assets: '£18-20B',
+      tier: 'Tier 3',
+      currentVendor: 'SymphonyAI v9',
+      vendorTenure: 'Since 2025',
+      regulatoryCatalyst: {
+        exists: true,
+        description: '£16.7M FCA Fine 2024',
+        urgency: 'LOW',
+        details: '£16.7M fine for transaction monitoring failings (2016-2019). Over £51B unmonitored. Recently implemented SymphonyAI v9 in 2025.'
+      },
+      attractiveness: 'LOW',
+      acvPotential: '£150K-£250K',
+      keyContacts: [
+        { name: 'Mo M.', title: 'AML/CTF Specialist', tenure: 'N/A' }
+      ],
+      timing: 'DO NOT PURSUE 2026-2027 (revisit 2027-2028)',
+      engagementStrategy: 'Metro Bank just implemented SymphonyAI in 2025 - multi-year contract almost certainly in place. Major weekend deployment indicates significant investment. DO NOT PURSUE in 2026-2027. Revisit in 2027-2028 for renewal cycle intelligence gathering.',
+      keyOpportunities: [
+        'Future renewal cycle opportunity (2028+)',
+        'FCA scrutiny will continue',
+        'Intelligence value on SymphonyAI strengths/weaknesses'
+      ],
+      keyRisks: [
+        'Just implemented new vendor in 2025',
+        'Prohibitive switching costs after recent implementation',
+        '3-5 year contract likely in place',
+        'Bank needs to demonstrate ROI on recent investment'
+      ],
+      sources: [
+        { title: "Metro Bank modernizes financial crime operations with SymphonyAI", url: "https://www.symphonyai.com/resources/case-study/financial-services/metro-bank/" },
+        { title: "Enforcement watch: FCA fines Metro Bank GBP 16.7m - Lexology", url: "https://www.lexology.com/library/detail.aspx?g=d451b44d-5f84-46ae-8a6c-c207b081443e" },
+        { title: "Transaction Monitoring and Money Laundering Risks: Metro Bank case study - Complyport", url: "https://complyport.com/transaction-monitoring-and-money-laundering-risks-metro-bank-plc-case-study/" }
+      ]
+    },
+    {
+      id: 'virgin-money-uk',
+      name: 'Virgin Money UK / Clydesdale Bank',
+      country: 'UK',
+      assets: '£65-70B',
+      tier: 'Tier 2',
+      currentVendor: 'Not disclosed',
+      vendorTenure: 'N/A',
+      regulatoryCatalyst: {
+        exists: true,
+        description: 'Nationwide Acquisition Oct 2024',
+        urgency: 'MEDIUM',
+        details: 'Acquired by Nationwide October 2024 for £2.9B. Virgin Money brand being phased out by 2030. Integration with Nationwide systems underway.'
+      },
+      attractiveness: 'MEDIUM',
+      acvPotential: '£400K-£700K',
+      keyContacts: [
+        { name: 'Adrian Haines', title: 'Chief Risk Officer', tenure: 'Since Jan 2025 (promoted from CCO)' }
+      ],
+      timing: '2026-2027 (integration period)',
+      engagementStrategy: 'Primary strategy: Target Nationwide Building Society (parent) rather than Virgin Money directly. If engaging separately, focus on integration challenges: "maintaining compliance during merger". Target Adrian Haines in new CRO role who may influence Nationwide decisions.',
+      keyOpportunities: [
+        'Integration period creates vendor re-evaluation opportunity',
+        'Adrian Haines promotion to CRO suggests expanded role',
+        'Temporary dual-vendor environment possible',
+        'If Nationwide evaluates vendors, Virgin Money systems in scope'
+      ],
+      keyRisks: [
+        'Already acquired by Nationwide - vendor decisions deferred to parent',
+        'Virgin Money brand being phased out',
+        'Too early in integration (4 months post-acquisition)',
+        'Must coordinate with Nationwide engagement to avoid channel conflict'
+      ],
+      sources: [
+        { title: "Virgin Money UK - Wikipedia", url: "https://en.wikipedia.org/wiki/Virgin_Money_UK" },
+        { title: "Adrian Haines - Chief Compliance Officer at Virgin Money - The Org", url: "https://theorg.com/org/clydesdale-bank/org-chart/adrian-haines" },
+        { title: "Nationwide, Virgin Money and Clydesdale Bank Board Changes", url: "https://www.nationwide.co.uk/media/news/nationwide-building-society-nationwide-virgin-money-uk-plc-virgin-money-and-clydesdale-bank-plc-clydesdale-bank-board-changes" }
+      ]
+    },
+    {
+      id: 'yorkshire-building-society',
+      name: 'Yorkshire Building Society',
+      country: 'UK',
+      assets: '£45-55B (estimated)',
+      tier: 'Tier 3',
+      currentVendor: 'Not disclosed',
+      vendorTenure: 'N/A',
+      regulatoryCatalyst: {
+        exists: true,
+        description: 'New CRO Appointed 2025',
+        urgency: 'HIGH',
+        details: 'Richard Bowles joined from Coventry Building Society in 2025. New executives typically review technology stack in first 12-18 months.'
+      },
+      attractiveness: 'HIGH',
+      acvPotential: '£200K-£350K',
+      keyContacts: [
+        { name: 'Richard Bowles', title: 'Chief Risk Officer', tenure: 'Since 2025 (from Coventry Building Society)' },
+        { name: 'Lyndon Horwell', title: 'Compliance Leadership', tenure: 'N/A' }
+      ],
+      timing: 'Q2-Q3 2026 (9-12 months post-appointment)',
+      engagementStrategy: 'Target Richard Bowles with emphasis on building society-specific requirements. New CRO from peer institution provides "fresh eyes" perspective. Lead with MLRO visibility and regulatory relationship management features. Emphasize governance integration (Risk, Legal, Compliance under single CRO).',
+      keyOpportunities: [
+        'New CRO creates fresh evaluation opportunity',
+        'CRO has direct compliance mandate (not separated from risk)',
+        'Building society model creates FDE value proposition',
+        'Yorkshire location may value FDE service for talent access',
+        'CRO from peer institution may bring comparative vendor perspective'
+      ],
+      keyRisks: [
+        'CRO may bring incumbent vendor preference from Coventry',
+        'Building society culture may be conservative on vendor changes',
+        'May defer major technology decisions until completing assessment',
+        'Budget constraints common in building society model'
+      ],
+      sources: [
+        { title: "Yorkshire Building Society appoints new chief risk officer - Yorkshire Post", url: "https://www.yorkshirepost.co.uk/business/yorkshire-building-society-appoints-new-chief-risk-officer-4514593" },
+        { title: "New Chief Risk Officer appointed at Yorkshire Building Society - YBS", url: "https://www.ybs.co.uk/w/new-cro-richard-bowles" },
+        { title: "Executive committee - YBS", url: "https://www.ybs.co.uk/your-society/inside-your-society/execteam" }
+      ]
+    },
+    {
+      id: 'tsb-bank',
+      name: 'TSB Bank',
+      country: 'UK',
+      assets: '£30-35B (estimated)',
+      tier: 'Tier 3',
+      currentVendor: 'Not disclosed',
+      vendorTenure: 'N/A',
+      regulatoryCatalyst: {
+        exists: true,
+        description: 'Multiple Compliance Fines 2024',
+        urgency: 'MEDIUM',
+        details: '£10.9M fine Oct 2024 (arrears treatment) and £48.65M fine Dec 2022 (IT resilience). Part of £176M FCA fines in 2024.'
+      },
+      attractiveness: 'MEDIUM',
+      acvPotential: '£150K-£300K',
+      keyContacts: [],
+      timing: 'Q3-Q4 2026 (after fine remediation)',
+      engagementStrategy: 'Lower priority vs. institutions with direct AML catalysts. Best approach via UK consulting partner with TSB relationship. Emphasize operational resilience (addresses 2022 fine concerns). Position as "low-risk" implementation (cloud-based, proven).',
+      keyOpportunities: [
+        'Multiple compliance fines create Board mandate for infrastructure improvement',
+        'Retail banking focus aligns with target segment',
+        'Scotland location (Edinburgh) may value FDE service for talent access',
+        'Multi-channel banking model suggests technology sophistication'
+      ],
+      keyRisks: [
+        'No specific AML-related regulatory catalyst',
+        'Compliance leadership not publicly visible',
+        'Recent fines may have exhausted compliance budget',
+        'IT migration failure (2022) creates risk-aversion to technology changes'
+      ],
+      sources: [
+        { title: "Key findings from FCA's GBP 10.9m fine on TSB Bank - DWF", url: "https://dwfgroup.com/en/news-and-insights/insights/2024/10/key-findings-from-the-fca-fine" },
+        { title: "TSB Bank hit with GBP 10.9M fine - AML Intelligence", url: "https://www.amlintelligence.com/2024/10/breaking-tsb-bank-hit-with-10-9m-fine-for-woeful-customers-arrears-system-spends-105m-on-fix/" },
+        { title: "Top FCA Fines in 2025 - AML Watcher", url: "https://amlwatcher.com/blog/top-fca-fines-in-2025-and-key-enforcement-findings/" }
+      ]
+    },
+    {
+      id: 'german-cooperative-banks',
+      name: 'German Cooperative Banks (Volksbanken)',
+      country: 'Germany',
+      assets: 'Sector-wide (645 institutions)',
+      tier: 'Tier 4-5 (individual banks)',
+      currentVendor: 'Not disclosed',
+      vendorTenure: 'N/A',
+      regulatoryCatalyst: {
+        exists: true,
+        description: 'AMLA Operational July 2025',
+        urgency: 'MEDIUM',
+        details: 'Anti-Money Laundering Authority (AMLA) operational from July 2025 in Frankfurt. BaFin maintains strict oversight. Sector consolidation ongoing (645 banks).'
+      },
+      attractiveness: 'MEDIUM',
+      acvPotential: 'Sector approach: €500K-2M',
+      keyContacts: [
+        { name: 'BVR', title: 'Bundesverband (Umbrella Association)', tenure: 'Partnership target' },
+        { name: 'DZ BANK', title: 'Central Institution', tenure: 'Partnership target' }
+      ],
+      timing: 'Phase 3 (2027-2029) - partner-led approach',
+      engagementStrategy: 'Sector partnership approach via BVR or DZ BANK. 645 institutions represent massive volume opportunity. Requires German language platform, BaFin/AMLA regulatory mapping, and German/EU data hosting. Partner-led with German consulting firms.',
+      keyOpportunities: [
+        '645 institutions represent massive volume',
+        'Central coordination enables sector-wide deployment',
+        'Consolidation creates technology standardization opportunities',
+        'AMLA establishment creates regulatory catalyst',
+        'Cooperative model aligns with community banking philosophy'
+      ],
+      keyRisks: [
+        'German language and localization mandatory (€200K-400K investment)',
+        'Strong preference for German/EU vendors over US providers',
+        'Data residency requirements (German/EU hosting mandatory)',
+        'Lengthy procurement processes (consortium decisions)',
+        'Cultural preference for established vendors'
+      ],
+      sources: [
+        { title: "Number of Cooperative and Savings Banks Falls Below 1,000 - Eulerpool", url: "https://eulerpool.com/en/news/markets/number-of-cooperative-banks-and-savings-banks-falls-below-1000-institutions-for-the-first-time" },
+        { title: "BVR - National Association of German Cooperative Banks", url: "https://www.bvr.de/en" },
+        { title: "DZ BANK - Initiative Bank", url: "https://www.dzbank.com/" },
+        { title: "Compliance - DZ BANK", url: "https://www.dzbank.com/content/dzbank/en/home/we-are-dz-bank/corporate-management/compliance.html" }
+      ]
+    },
+    {
+      id: 'german-sparkassen',
+      name: 'German Sparkassen (Savings Banks)',
+      country: 'Germany',
+      assets: 'Sector-wide (~350 institutions)',
+      tier: 'Tier 4-5 (individual banks)',
+      currentVendor: 'Not disclosed',
+      vendorTenure: 'N/A',
+      regulatoryCatalyst: {
+        exists: true,
+        description: 'AMLA Operational July 2025',
+        urgency: 'MEDIUM',
+        details: 'AMLA establishment July 2025 intensifies supervision. BaFin maintains strict oversight. Public-sector ownership creates consortium procurement opportunities.'
+      },
+      attractiveness: 'MEDIUM',
+      acvPotential: 'Sector approach: €500K-2M',
+      keyContacts: [
+        { name: 'DSGV', title: 'Deutscher Sparkassen- und Giroverband (Umbrella)', tenure: 'Partnership target' }
+      ],
+      timing: 'Phase 3 (2027-2029) - after UK success',
+      engagementStrategy: 'Sector-wide approach via DSGV more viable than individual bank sales. Requires German language platform, German/EU hosting, and BaFin/AMLA regulatory mapping. Partner-led with German consulting firms and public-sector procurement expertise.',
+      keyOpportunities: [
+        '~350 institutions represent substantial volume',
+        'Public-sector ownership enables consortium procurement',
+        'AMLA establishment creates regulatory catalyst',
+        'Regional focus aligns with community banking model',
+        'Local market presence suggests resource constraints (FDE value)'
+      ],
+      keyRisks: [
+        'German language and localization mandatory (€500K-1M investment)',
+        'Strong preference for local/European vendors',
+        'Data residency requirements essential',
+        'Public-sector procurement rules complex',
+        'Lengthy procurement processes',
+        'Only pursue after UK success validates European approach'
+      ],
+      sources: [
+        { title: "Limited research available for individual institutions", url: "#" }
+      ]
+    },
+    {
+      id: 'commerzbank-hypovereinsbank',
+      name: 'Commerzbank and HypoVereinsbank',
+      country: 'Germany',
+      assets: '€500B+',
+      tier: 'Tier 1',
+      currentVendor: 'Not disclosed',
+      vendorTenure: 'N/A',
+      regulatoryCatalyst: {
+        exists: false,
+        description: 'None',
+        urgency: 'NONE',
+        details: 'Tier 1 systemically important bank. Preventing hostile takeover by UniCredit (strategic distraction). 3,900 FTE reductions planned by 2028.'
+      },
+      attractiveness: 'LOW',
+      acvPotential: 'Out of scope',
+      keyContacts: [],
+      timing: 'DO NOT PURSUE - out of scope',
+      engagementStrategy: 'Out of scope. Tier 1 systemically important bank exceeds target segment. Would prefer platform solutions over managed services. Cost focus (3,900 FTE reductions) and strategic distraction (UniCredit takeover defense) make this low priority.',
+      keyOpportunities: [],
+      keyRisks: [
+        'Tier 1 scale exceeds target segment',
+        'Internal capabilities mean platform preference over FDE',
+        'Strategic distraction (UniCredit hostile takeover)',
+        'Cost focus (3,900 FTE reductions by 2028)'
+      ],
+      sources: [
+        { title: "Commerzbank - Wikipedia", url: "https://en.wikipedia.org/wiki/Commerzbank" },
+        { title: "Contact Peter Lassig - ZoomInfo", url: "https://rocketreach.co/peter-lassig-email_31166440" }
+      ]
+    },
+    {
+      id: 'national-bank-canada',
+      name: 'National Bank of Canada',
+      country: 'Canada',
+      assets: 'CAD 400B+',
+      tier: 'Tier 1',
+      currentVendor: 'Not disclosed',
+      vendorTenure: 'N/A',
+      regulatoryCatalyst: {
+        exists: true,
+        description: 'Cloud Transformation (80% Migration)',
+        urgency: 'MEDIUM-HIGH',
+        details: 'Ambitious cloud transformation: migrating 80% of data centre workloads to cloud. Senior leadership changes October 2025. AWS partnership for cloud transformation.'
+      },
+      attractiveness: 'MEDIUM-HIGH',
+      acvPotential: 'CAD 800K-1.5M',
+      keyContacts: [
+        { name: 'SVP', title: 'Chief Compliance Officer and Chief AML Officer', tenure: 'N/A' }
+      ],
+      timing: 'Q2-Q3 2026 (cloud migration planning)',
+      engagementStrategy: 'Lead with cloud-native architecture aligned to transformation program. Emphasize AWS Marketplace availability (aligns with AWS partnership). Position as "cloud transformation accelerator" for compliance systems. Target CIO/CTO alongside CCO. Leverage AWS partnership team for warm introduction.',
+      keyOpportunities: [
+        'Cloud transformation (80% migration) creates vendor evaluation window',
+        'Legacy AML systems need replacement or re-platforming',
+        'AWS partnership provides introduction channel',
+        'Senior leadership changes suggest openness to transformation',
+        'Canadian regulatory similarity to US reduces customization'
+      ],
+      keyRisks: [
+        'Size (CAD 400B+) may be too large for typical solution',
+        'May prefer platform solutions over managed services',
+        'Cloud transformation may be consuming budget',
+        'May have already selected compliance vendors for migration',
+        'Tier 1 scale exceeds typical target segment'
+      ],
+      sources: [
+        { title: "Anticorruption and AML/ATF programs - National Bank", url: "https://www.nbc.ca/about-us/governance/policies-codes-commitments/anticorruption-aml-atf.html" },
+        { title: "National Bank Announces Changes to Senior Leadership Team", url: "https://www.nbc.ca/about-us/news-media/press-release/2025/20251029-nbc-changes-senior-leadership-team.html" },
+        { title: "National Bank Structures Cloud Transformation - AWS Case Study", url: "https://aws.amazon.com/solutions/case-studies/national-bank-canada-case-study/" }
+      ]
+    },
+    {
+      id: 'desjardins-credit-unions',
+      name: 'Canadian Credit Unions - Desjardins Group',
+      country: 'Canada',
+      assets: 'CAD 400B+',
+      tier: 'Tier 1',
+      currentVendor: 'Verafin (likely - dominant in sector)',
+      vendorTenure: 'N/A',
+      regulatoryCatalyst: {
+        exists: true,
+        description: 'FINTRAC Record Fine CAD 7.4M (2023)',
+        urgency: 'LOW-MEDIUM',
+        details: 'Largest fine in Canadian history signals aggressive enforcement. Verafin dominates credit union sector (2,700+ institutions, near-monopoly).'
+      },
+      attractiveness: 'LOW-MEDIUM',
+      acvPotential: 'CAD 250K-500K',
+      keyContacts: [
+        { name: 'Desjardins', title: 'Co-Chair ACMLTF (Policy Influence)', tenure: 'N/A' }
+      ],
+      timing: 'Phase 2-3 (2027-2028) - partner-led',
+      engagementStrategy: 'Position as "Verafin alternative" for credit unions seeking vendor diversity. Target smaller credit unions (under CAD 5B) where Verafin may be over-specified. Emphasize FDE service model (credit unions have limited compliance staff). Focus on Western Canada (less Desjardins influence).',
+      keyOpportunities: [
+        'Verafin acquisition by Nasdaq (2021) may have changed product direction',
+        'Credit unions outside Desjardins ecosystem may seek alternatives',
+        'FDE service addresses credit union resource constraints',
+        'FINTRAC enforcement creates upgrade catalyst',
+        'Provincial credit union federations enable partnerships'
+      ],
+      keyRisks: [
+        'Verafin near-monopoly (2,700+ institutions, Canadian company)',
+        'Strong consortium model creates network effects',
+        'Desjardins policy influence suggests established relationships',
+        'Conservative procurement culture',
+        'Credit union economics constrain technology spending'
+      ],
+      sources: [
+        { title: "Financial Crime Management Technology - Verafin", url: "https://verafin.com/canada/" },
+        { title: "Desjardins and CGI Strategic Alliance - CGI", url: "https://www.cgi.com/en/desjardins-group-and-cgi-create-strategic-alliance-offer-canadian-credit-unions-technology-solutions" },
+        { title: "Canada AML Compliance & Management - Verafin", url: "https://verafin.com/resource/canada-aml-compliance-management/" },
+        { title: "Advisory Committee on Money Laundering - Government of Canada", url: "https://www.canada.ca/en/department-finance/programs/committees/advisory-committee-money-laundering-terrorist-financing.html" }
+      ]
+    },
+    {
+      id: 'atb-financial',
+      name: 'ATB Financial (Alberta Treasury Branches)',
+      country: 'Canada',
+      assets: 'CAD 62.3B',
+      tier: 'Tier 2',
+      currentVendor: 'Not disclosed',
+      vendorTenure: 'N/A',
+      regulatoryCatalyst: {
+        exists: true,
+        description: 'Cormark Securities Acquisition 2025',
+        urgency: 'MEDIUM-HIGH',
+        details: 'Acquired Cormark Securities 2025 to expand investment banking. Provincial bank status (Alberta-only). Deployed Gemini for 5,000+ team members (2025).'
+      },
+      attractiveness: 'MEDIUM-HIGH',
+      acvPotential: 'CAD 500K-1M',
+      keyContacts: [],
+      timing: 'Q2-Q3 2026 (post-Cormark integration)',
+      engagementStrategy: 'Lead with "Alberta-specific" positioning (provincial regulatory framework different from federal). Emphasize difference from federal bank solutions. Target technology leadership (Gemini deployment suggests innovation focus). Highlight FDE for Alberta talent market. Position Cormark acquisition as catalyst.',
+      keyOpportunities: [
+        'Provincial regulation creates differentiation opportunity',
+        'Cormark acquisition creates integration and compliance expansion window',
+        'Technology innovation culture (Gemini deployment) suggests receptivity',
+        'Alberta-only footprint simplifies deployment',
+        'Largest public bank positioning suggests social mission alignment',
+        'Regional location creates FDE value proposition'
+      ],
+      keyRisks: [
+        'Provincial regulatory framework may require custom development',
+        'Alberta-only market may not justify provincial customization',
+        'May have established vendor relationships for provincial requirements',
+        'Government ownership may create conservative procurement',
+        'CRO/CCO not publicly identified'
+      ],
+      sources: [
+        { title: "ATB Financial - List of public agencies - Government of Alberta", url: "https://public-agency-list.alberta.ca/PublicAgencyOpportunityList/GetOpportunityById?opportunityId=597" },
+        { title: "ATB Financial - Wikipedia", url: "https://en.wikipedia.org/wiki/ATB_Financial" },
+        { title: "ATB Financial - GlobalData Company Profile", url: "https://www.globaldata.com/company-profile/alberta-treasury-branches/" }
+      ]
+    },
+    {
+      id: 'laurentian-canadian-western',
+      name: 'Laurentian Bank and Canadian Western Bank',
+      country: 'Canada',
+      assets: 'CAD 30-40B (each)',
+      tier: 'Tier 3',
+      currentVendor: 'Not disclosed',
+      vendorTenure: 'N/A',
+      regulatoryCatalyst: {
+        exists: false,
+        description: 'Insufficient Research',
+        urgency: 'MEDIUM',
+        details: 'Schedule II banks (domestic ownership). Web search unavailable during research period. Asset range appropriate for Tier 3 pricing.'
+      },
+      attractiveness: 'MEDIUM',
+      acvPotential: 'CAD 250K-450K',
+      keyContacts: [],
+      timing: 'Phase 2 (2027-2028) - partner-led',
+      engagementStrategy: 'Requires additional research to identify CCO/CRO, current AML vendors, and regulatory examination findings. Partner-led approach via Canadian consulting firms. Schedule II status indicates domestic ownership (likely resource constraints vs. Big Five).',
+      keyOpportunities: [
+        'Schedule II bank status (domestic ownership)',
+        'Asset range appropriate for Tier 3 pricing',
+        'Likely resource constraints vs. Big Five banks (FDE value)',
+        'Regional focus may align with sales territories'
+      ],
+      keyRisks: [
+        'Insufficient research completed',
+        'CCO/CRO not identified',
+        'Current AML vendor unknown',
+        'Core banking platforms unknown'
+      ],
+      sources: [
+        { title: "Research incomplete due to web search unavailability", url: "#" }
       ]
     }
   ];
@@ -2055,7 +2529,7 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
                                     </div>
 
                                     {/* Key Risks */}
-                                    <div>
+                                    <div className="mb-4">
                                       <h4 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
                                         <AlertCircle className="w-4 h-4 text-red-600" />
                                         Key Risks
@@ -2069,6 +2543,31 @@ const GTMCommitmentExplorer = ({ onLogout }) => {
                                         ))}
                                       </ul>
                                     </div>
+
+                                    {/* Sources */}
+                                    {customer.sources && customer.sources.length > 0 && (
+                                      <div>
+                                        <h4 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+                                          <ExternalLink className="w-4 h-4 text-blue-600" />
+                                          Sources
+                                        </h4>
+                                        <ul className="space-y-2">
+                                          {customer.sources.map((source, idx) => (
+                                            <li key={idx} className="text-sm">
+                                              <a
+                                                href={source.url}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-blue-600 hover:text-blue-800 hover:underline flex items-start gap-1.5"
+                                              >
+                                                <ExternalLink className="w-3 h-3 mt-0.5 flex-shrink-0" />
+                                                <span>{source.title}</span>
+                                              </a>
+                                            </li>
+                                          ))}
+                                        </ul>
+                                      </div>
+                                    )}
                                   </div>
                                 </div>
                               </td>
